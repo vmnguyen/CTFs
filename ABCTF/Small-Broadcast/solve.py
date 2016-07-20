@@ -33,3 +33,4 @@ temp =  int(pow(mpz(c), 0.5))
 print temp
 message = hex(temp).lstrip('0x')
 print 'message = ', message
+#https://gist.github.com/bobacadodl//92430f0c2fb1fc5517b4743904ea17a1/
