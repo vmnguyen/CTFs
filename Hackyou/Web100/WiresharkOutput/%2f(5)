@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Web 100</title>
+    </head>
+    <body>
+        <h1>File viewer</h1>
+<a href='?filename=files/flag.txt'>files/flag.txt</a> (34 bytes)<br/>
+    </body>
+</html>
