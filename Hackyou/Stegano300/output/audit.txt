@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Oct 21 20:33:38 2016
+Invocation: foremost steg300_where_8c7f6f7.png 
+Output directory: /home/bob/Documents/CTFs/Hackyou/Stegano300/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: steg300_where_8c7f6f7.png
+Start: Fri Oct 21 20:33:38 2016
+Length: 125 KB (128085 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     125 KB 	          0 	  (323 x 206)
+Finish: Fri Oct 21 20:33:38 2016
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Fri Oct 21 20:33:38 2016
